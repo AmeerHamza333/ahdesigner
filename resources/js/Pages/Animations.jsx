@@ -13,7 +13,7 @@ export default function Animations() {
   useEffect(() => {
     const getAllDatapsd = async ()=>{
      try {
-       const portdata = await axios.get("http://127.0.0.1:8000/api/portfolio"); 
+       const portdata = await axios.get("http://localhost:8000/api/portfolio"); 
        const updatedpsddata = portdata.data.filter((val,index)=>{
          return val.category == 'animation'
        })

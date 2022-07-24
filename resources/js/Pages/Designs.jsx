@@ -14,7 +14,7 @@ const [reactData, setReactData] = useState([]);
 useEffect(() => {
     const getAllDatapsd = async ()=>{
      try {
-       const portdata = await axios.get("http://127.0.0.1:8000/api/portfolio"); 
+       const portdata = await axios.get("http://localhost:8000/api/portfolio"); 
        const updatedpsddata = portdata.data.filter((val,index)=>{
          return val.category == 'logo'
        })
@@ -30,7 +30,7 @@ useEffect(() => {
  useEffect(() => {
    const getAllDatareact = async ()=>{
     try {
-      const reactdata = await axios.get("http://127.0.0.1:8000/api/portfolio"); 
+      const reactdata = await axios.get("http://localhost:8000/api/portfolio"); 
       const updatedreactdata = reactdata.data.filter((val,index)=>{
        return val.category == 'posts'
      })
