@@ -76,7 +76,7 @@ const contactSection = useRef(null);
 
             {['About', 'Services', "Portfolio", 'Contact'].map((text, index) => (
                 <>
-              <ListItem  key={text} disablePadding>
+              <ListItem  key={index} disablePadding>
                 <ListItemButton onClick = {()=>{index == 0 ? scrollDown(aboutSection) : index == 1 ? scrollDown(serviceSection)  : index == 2 ? scrollDown(portfolioSection) : scrollDown(contactSection) }}>
                   <ListItemIcon>
                     {index == 0 ? <ReportIcon style={{color: "#37FD12"}}/> : index == 1 ? <DesignServicesIcon style={{color: "#37FD12"}}/> :   index == 2 ?  <FolderSharedIcon style={{color: "#37FD12"}}/> : <PermContactCalendarIcon style={{color: "#37FD12"}}/> }

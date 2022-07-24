@@ -21,44 +21,44 @@ export default function Skills() {
         <div className='skills_left' data-aos="fade-up" data-aos-once="true">
       <p className='headings'>HTML</p>
 
-<div class="container">
-  <div class="skills html">95%</div>
+<div className="container">
+  <div className="skills html">95%</div>
 </div>
 
 <p className='headings'>CSS</p>
 
-<div class="container">
-  <div class="skills css">85%</div>
+<div className="container">
+  <div className="skills css">85%</div>
 </div>
 
 <p className='headings'>JavaScript</p>
 
-<div class="container">
-  <div class="skills js">75%</div>
+<div className="container">
+  <div className="skills js">75%</div>
 </div>
 
 <p className='headings'>React JS</p>
 
-<div class="container">
-  <div class="skills react">70%</div>
+<div className="container">
+  <div className="skills react">70%</div>
 </div>
 
 <p className='headings'>Adobe After Effect</p>
 
-<div class="container">
-  <div class="skills ae">85%</div>
+<div className="container">
+  <div className="skills ae">85%</div>
 </div>
 
 <p className='headings'>Adobe Photoshop</p>
 
-<div class="container">
-  <div class="skills ap">80%</div>
+<div className="container">
+  <div className="skills ap">80%</div>
 </div>
 
 <p className='headings'>Adobe Illustrator</p>
 
-<div class="container">
-  <div class="skills ai">90%</div>
+<div className="container">
+  <div className="skills ai">90%</div>
 </div>
 
 </div>
