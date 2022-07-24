@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 resources/js/app.jsx
+web: vendor/bin/heroku-php-apache2 public/
