@@ -25,9 +25,9 @@ href="https://fonts.googleapis.com/icon?family=Material+Icons"
 
 <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Edu+TAS+Beginner&family=Josefin+Slab:wght@100&family=Koulen&family=Philosopher&family=Righteous&display=swap" rel="stylesheet">
 
-<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+<!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
 
-
+<link rel="manifest" crossorigin="use-credentials" href="manifest.json"/>
 
 
         <!-- Scripts -->
