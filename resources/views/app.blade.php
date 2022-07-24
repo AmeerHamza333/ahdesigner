@@ -12,7 +12,7 @@
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
         <!-- <link rel="manifest" href="%PUBLIC%/manifest.json" /> -->
-        <link rel="manifest" href="{{  asset('public/manifest.json')  }}">
+        <link rel="manifest" href="{{  asset('app/public/build/manifest.json')  }}">
 
 <link
 rel="stylesheet"
