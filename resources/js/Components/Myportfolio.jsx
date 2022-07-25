@@ -127,7 +127,7 @@ export default function Myportfolio(props) {
         href = {index==0 ? '/portfolio/websites' : index == 1 ? '/portfolio/designs' : '/portfolio/animations'}
         // onClick={index==0 ? websitedBtn : index == 1 ? designsBtn : animationsBtn}
           focusRipple
-          key={image.title}
+          key={index}
           style={{
             width: image.width,
           }}
