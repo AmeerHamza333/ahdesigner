@@ -13,7 +13,7 @@
 
         <!-- <link rel="manifest" href="%PUBLIC%/manifest.json" /> -->
         <!-- <link rel="manifest" href="{{  asset('/public/build/manifest.json')  }}"> -->
-        <link rel="manifest" href="/manifest.json" >
+        <link rel="manifest" href="manifest.json" >
 
 <link
 rel="stylesheet"
@@ -24,8 +24,6 @@ href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swa
 rel="stylesheet"
 href="https://fonts.googleapis.com/icon?family=Material+Icons"
 />
-
-
 
 <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Edu+TAS+Beginner&family=Josefin+Slab:wght@100&family=Koulen&family=Philosopher&family=Righteous&display=swap" rel="stylesheet">
 
